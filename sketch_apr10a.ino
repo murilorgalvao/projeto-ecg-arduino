@@ -1,9 +1,9 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
  
-#define WIFISSID "FamiliaGalvao2.4G" // Put your WifiSSID here
-#define PASSWORD "feremule4" // Put your wifi password here
-#define TOKEN "BBFF-G6OEbhR1qGnHmLKHMZUembN1RutYj8" // Put your Ubidots' TOKEN
+#define WIFISSID "wifissd" // Put your WifiSSID here
+#define PASSWORD "password" // Put your wifi password here
+#define TOKEN "token" // Put your Ubidots' TOKEN
 #define MQTT_CLIENT_NAME "lilozera" // MQTT client Name, please enter your own 8-12 alphanumeric character ASCII string; 
                                            //it should be a random and unique ascii string and different from all other devices
  
