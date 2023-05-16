@@ -1,7 +1,7 @@
 # Projeto IoT baseado em Monitoramento ECG
 
 ### Funcionamento
-Foi utilizado o software de programação Arduino IDE para construir o código-fonte do monitoramento de ECG e fazer a transferência do código para o Arduino ESP32 que fez o monitoramento dos batimentos cardíacos através do módulo AD8232 usando eletrôdos. Os dados calculados pelo Arduino foram transmitidos para a plataforma em nuvem chamada Ubidots, que foi configurada para receber e armazenar os dados coletados pelo sistema. A plataforma deve ser capaz de processar os dados em tempo real e apresentá-los em forma de gráficos e alertas em caso de anomalias detectadas.<br>
+O software de programação Arduino IDE foi utilizado para desenvolver o código-fonte do monitoramento de ECG. O código foi transferido para o Arduino ESP32, que realizou o monitoramento dos batimentos cardíacos usando o módulo AD8232 e eletrodos. Os dados coletados pelo Arduino foram transmitidos para a plataforma em nuvem Ubidots, que recebeu e armazenou os dados. A plataforma processa os dados em tempo real, exibindo-os por meio de gráficos e alertas em caso de anomalias detectadas.<br>
 
 ### Hardware
 #### Plataforma de Desenvolvimento: Arduino IDE <br>
